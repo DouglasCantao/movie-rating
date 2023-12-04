@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .highligted-star {
+    @apply relative float-right left-6 top-2 text-white;
+  }
+}
+
+@layer components {
+  .movie-card {
+    @apply flex flex-col w-60 shadow-md;
+  }
+}
+
+@layer components {
+  .movie-detail {
+    @apply flex flex-row items-center w-3/4 gap-4;
+  }
+}
